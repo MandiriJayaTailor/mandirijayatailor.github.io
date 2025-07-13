@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  line-height: 1.7;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #111;
+  padding: 20px 0;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #c084fc;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #eee;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #c084fc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 32px;
+  color: #c084fc;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+
+.btn {
+  padding: 16px 32px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 12px;
+  transition: background 0.3s;
+  display: inline-block;
+  margin-top: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  touch-action: manipulation;
+}
+
+/* Tombol Ungu (default) */
+.btn:not(.btn-wa) {
+  background-color: #c084fc;
+  color: white;
+}
+
+.btn:not(.btn-wa):hover {
+  background-color: #d8b4fe;
+}
+
+/* Tombol WhatsApp */
+.btn-wa {
+  background-color: #25D366;
+  color: white;
+}
+
+.btn-wa:hover {
+  background-color: #1ebe5d;
+}
+
+section {
+  padding: 60px 0;
+}
+
+h3 {
+  color: #c084fc;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px dashed #444;
+}
+
+a {
+  color: #c084fc;
+  text-decoration: none;
+}
